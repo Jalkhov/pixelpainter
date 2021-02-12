@@ -5,7 +5,7 @@ with open("README.md", encoding="utf-8") as f:
 
 setup(
 	name="pixelpainter",
-	version="0.3",
+	version="0.1",
 	description="Convert images to HTML.",
 	long_description = long_description,
 	long_description_content_type="text/markdown",
@@ -21,16 +21,16 @@ setup(
 	],
 	entry_points={
 		'console_scripts': [
-			'pixelpainter = pixelpainter.main:main',
+			'pixelpainter = pixelpainter.core:main',
 		],
 	},
 	classifiers=[
-		"Development Status :: 5 - Production/Stable",
-		"Environment :: Console",
-		"Operating System :: Microsoft :: Windows",
-		"Programming Language :: Python :: 3",
 		"Topic :: Utilities",
-		"Topic :: Scientific/Engineering :: Image Processing",
+		"Environment :: Console",
+		"Programming Language :: Python :: 3",
 		"License :: OSI Approved :: MIT License",
+		"Operating System :: Microsoft :: Windows",
+		"Development Status :: 5 - Production/Stable",
+		"Topic :: Scientific/Engineering :: Image Processing",
 	],
 )
