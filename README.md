@@ -4,6 +4,8 @@ Ok, first of all, this script just gets all the pixels from the given image, bui
 
 *For now this script is only executable from Windows.*
 
+<span style="color:red">**IMPORTANT: The larger the image to be processed, the more pixels will be inserted in the HTML table, therefore it will take longer to load the file in the browser. Also handle the pixel size carefully.**</span>
+
 **Install:**
 
 pip install pixel-painter
