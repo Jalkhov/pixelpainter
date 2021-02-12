@@ -12,8 +12,6 @@ pip install pixel-painter
 
 `pixelpainter -h` in cmd shows:
 
----
-
 `usage: pixelpainter [-h] -i IMAGE [-ps PIXELSIZE] [-f FOLDER] [-m {save,copy}]`
 
 `Script for convert images to HTML...Simple.`
@@ -28,8 +26,6 @@ pip install pixel-painter
                         `Output folder to HTML file (in case from save argument)`
   `-m {save,copy}, --mode {save,copy}`
                         `Copy the generated code to clipboard (copy) or generate a HTML file (save).`
-
----
 
 The only **required** argument is `-i`, the rest are optional and have default values:
 
