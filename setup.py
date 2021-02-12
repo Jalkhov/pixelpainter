@@ -11,7 +11,7 @@ setup(
 	long_description_content_type="text/markdown",
 	author="Pedro Torcatt",
 	author_email="pedrotorcattsoto@gmail.com",
-	url="https://github.com/pixelpainter",
+	url="https://github.com/Jalkhov/pixelpainter",
 	license = "MIT",
 	keywords = "paint html pixel convert image",
 	packages=['pixelpainter'],
