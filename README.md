@@ -8,7 +8,7 @@ Ok, first of all, this script just gets all the pixels from the given image, bui
 
 **Install:**
 
-pip install pixelpainter
+`pip install pixelpainter`
 
 **Usage:**
 
