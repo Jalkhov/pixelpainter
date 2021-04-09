@@ -47,7 +47,7 @@ def main():
         '-i', '--image',
         required=True,
         type=str,
-        help="Full path from image to process."
+        help="Absolute path of the image to be processed."
     )
 
     # PIXEL SIZE ARGUMENT
