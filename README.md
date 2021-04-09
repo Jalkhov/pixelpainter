@@ -21,11 +21,11 @@ Ok, first of all, this script just gets all the pixels from the given image, bui
 `optional arguments:`
   `-h, --help            show this help message and exit`
   `-i IMAGE, --image IMAGE`
-                        `Full path from image to process.`
+                        `Absolute path of the image to be processed.`
   `-ps PIXELSIZE, --pixelsize PIXELSIZE`
                         `Pixel size.`
   `-f FOLDER, --folder FOLDER`
-                        `Output folder to HTML file (in case from save argument)`
+                        `Output folder of the HTML file (in case of using -save mode in --mode argument) The default save folder is the desktop.`
   `-m {save,copy}, --mode {save,copy}`
                         `Copy the generated code to clipboard (copy) or generate a HTML file (save).`
 
