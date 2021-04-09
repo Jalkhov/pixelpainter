@@ -333,4 +333,7 @@ The only **required** argument is `-i`, the rest are optional and have default v
     </tr>
 </table>
 ```
+<<<<<<< HEAD
 </details>  
+=======
+>>>>>>> 58197d2d0cd08032822798fb88a6d109d3e164a7
