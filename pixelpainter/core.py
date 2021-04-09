@@ -29,7 +29,7 @@ class Image2HTML(object):
         self.HTMLCODE = Array2Table(MATRIX, pixsize)
 
     def Save(self):
-        path = os.path.join(self.outfolder, "FILE.html")
+        path = os.path.join(self.outfolder, "PixelPainter.html")
         FOut = open(path, "w")
         FOut.write(self.HTMLCODE)
         FOut.close()
