@@ -7,7 +7,8 @@ import os
 
 
 def user():
-    return os.path.join('C:', os.environ["HOMEPATH"], "Desktop")
+    # https://stackoverflow.com/a/53491855/9537733
+    return os.environ['USERPROFILE'] + r'\Desktop'
 
 
 class Image2HTML(object):
