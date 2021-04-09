@@ -63,7 +63,7 @@ def main():
         '-f', '--folder',
         default=user(),
         type=str,
-        help="Output folder to HTML file (in case of using -save mode in --mode argument) The default save folder is the desktop."
+        help="Output folder of the HTML file (in case of using -save mode in --mode argument) The default save folder is the desktop."
     )
 
     # MODE ARGUMENT
