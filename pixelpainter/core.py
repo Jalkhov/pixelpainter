@@ -12,8 +12,6 @@ def user():
 
 
 class Image2HTML(object):
-    """docstring for Image2HTML"""
-
     def __init__(self, image, pixsize, outfolder):
         super(Image2HTML, self).__init__()
         self.outfolder = outfolder
