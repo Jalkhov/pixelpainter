@@ -13,21 +13,23 @@ Ok, first of all, this script just gets all the pixels from the given image, bui
 **Usage:**
 
 `pixelpainter -h` in cmd shows:
+```
+usage: pixelpainter [-h] -i IMAGE [-ps PIXELSIZE] [-f FOLDER] [-m {save,copy}]
 
-`usage: pixelpainter [-h] -i IMAGE [-ps PIXELSIZE] [-f FOLDER] [-m {save,copy}]`
+Convert images to HTML.
 
-`Script for convert images to HTML...Simple.`
-
-`optional arguments:`
-  `-h, --help            show this help message and exit`
-  `-i IMAGE, --image IMAGE`
-                        `Absolute path of the image to be processed.`
-  `-ps PIXELSIZE, --pixelsize PIXELSIZE`
-                        `Pixel size.`
-  `-f FOLDER, --folder FOLDER`
-                        `Output folder of the HTML file (in case of using -save mode in --mode argument) The default save folder is the desktop.`
-  `-m {save,copy}, --mode {save,copy}`
-                        `Copy the generated code to clipboard (copy) or generate a HTML file (save).`
+optional arguments:
+  -h, --help            show this help message and exit
+  -i IMAGE, --image IMAGE
+                        Absolute path of the image to be processed.
+  -ps PIXELSIZE, --pixelsize PIXELSIZE
+                        Pixel size.
+  -f FOLDER, --folder FOLDER
+                        Output folder of the HTML file (in case of using -save mode in --mode argument) The default
+                        save folder is the desktop.
+  -m {save,copy}, --mode {save,copy}
+                        Copy the generated code to clipboard (copy) or generate a HTML file (save).
+```
 
 The only **required** argument is `-i`, the rest are optional and have default values:
 
@@ -43,7 +45,8 @@ The only **required** argument is `-i`, the rest are optional and have default v
 | :---------------------------------: | :----------------------------------------------------------: |
 | ![](https://i.ibb.co/cgLt99x/1.png) | ![](https://i.ibb.co/6HnQMwF/2021-02-11-22-43-19-9d804bbbcdd7.png) |
 
-**Output HTML Code Beautified with [this](https://www.freeformatter.com/html-formatter.html):**
+<details>
+<summary>Output HTML Code (Beautified)</summary>
 
 ```html
 <style>
@@ -330,3 +333,4 @@ The only **required** argument is `-i`, the rest are optional and have default v
     </tr>
 </table>
 ```
+</details>  
